@@ -1,0 +1,14 @@
+MINGXIANG CAI
+4149014394
+Ubantu 22
+I have Completed all the requirements for this assignment
+
+servermain.c: This code creates a TCP server that listens for client requests and 
+            checks which campus a department belongs to. It reads the department data from a 
+            file and handles each client connection in a separate process using fork(). 
+            The server sends back the campus ID or "Not found" based on the client's request.
+
+client.c: This code is a TCP client that connects to a server, sends department names, and displays 
+            the server's response.
+
+I reused the socket programming function in main() from beej's guide to network programming
